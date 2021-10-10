@@ -16,7 +16,7 @@ python3 main.py plug1
 ```
 
 Anything following the name of the module will be passed into the module's 
-entry point as an array.
+entry point as an array (the entry function must take an array argument).
 
 The `utils.py` file contains, for example, functions that may be used by the 
 core functionality of the module, but may also be used by the plugins (see the 
